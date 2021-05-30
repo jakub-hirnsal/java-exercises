@@ -101,6 +101,8 @@ public class CarService {
                         .anyMatch(manufacturer -> predicate.test(manufacturer.getYearOfEstablishment())))
                 .collect(Collectors.toList());
     }
+
+
 }
 
 
